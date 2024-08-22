@@ -1031,7 +1031,7 @@ public final class BranchPriceCut {
 	
 	private void ReadData(String instance) {
 		try {
-			File file = new File("/home/camille/epfl-workspace/eclipse-workspace/crowd-shipping4/instances/" + instance);
+			File file = new File("/home/instances/" + instance);
 					 	BufferedReader br = new BufferedReader(new FileReader(file)); 
 			String st;
 			int default_capacity;
